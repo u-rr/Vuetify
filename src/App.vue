@@ -15,10 +15,7 @@
       <router-link to="/about">About</router-link>
     </div>
     <router-view/>
-    <v-footer
-      dark
-      height="auto"
-    >
+    <v-footer id="footer" dark height="auto">
       <v-card
         class="flex"
         flat
@@ -41,7 +38,7 @@
         </v-card-title>
 
         <v-card-actions class="grey darken-3 justify-center">
-          &copy;2018 — <strong>Vuetify</strong>
+          &copy;2018 — <strong>りながつくってるよ</strong>
         </v-card-actions>
       </v-card>
     </v-footer>
@@ -61,3 +58,13 @@
     })
   }
 </script>
+
+<style>
+  #footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+  }
+</style>
