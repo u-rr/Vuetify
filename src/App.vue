@@ -1,13 +1,13 @@
 <template>
   <div id="app">
-    <v-toolbar>
+    <v-toolbar class="red lighten-3">
       <v-toolbar-side-icon></v-toolbar-side-icon>
-      <v-toolbar-title>Title</v-toolbar-title>
+      <v-toolbar-title >ゆーるるのポートフォリオサイト</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-toolbar-items class="hidden-sm-and-down">
-        <v-btn flat>Link One</v-btn>
-        <v-btn flat>Link Two</v-btn>
-        <v-btn flat>Link Three</v-btn>
+        <v-btn flat>ゆーるるについて</v-btn>
+        <v-btn flat>Works</v-btn>
+        <v-btn flat>お問い合わせ</v-btn>
       </v-toolbar-items>
     </v-toolbar>
     <div id="nav">
@@ -16,12 +16,8 @@
     </div>
     <router-view/>
     <v-footer id="footer" dark height="auto">
-      <v-card
-        class="flex"
-        flat
-        tile
-      >
-        <v-card-title class="teal">
+      <v-card　class="flex" flat　tile>
+        <v-card-title class="red lighten-3">
           <strong class="subheading">Get connected with us on social networks!</strong>
 
           <v-spacer></v-spacer>
@@ -38,7 +34,7 @@
         </v-card-title>
 
         <v-card-actions class="grey darken-3 justify-center">
-          &copy;2018 — <strong>りながつくってるよ</strong>
+          &copy;2019　 <strong>ゆーるるのポートフォリオサイト</strong>
         </v-card-actions>
       </v-card>
     </v-footer>
@@ -51,7 +47,6 @@
       icons: [
         'fab fa-facebook',
         'fab fa-twitter',
-        'fab fa-google-plus',
         'fab fa-linkedin',
         'fab fa-instagram'
       ]
